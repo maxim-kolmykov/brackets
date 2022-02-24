@@ -21,7 +21,7 @@ module.exports = function check(str, bracketsConfig) {
             } else {
                 stack.push(str[i])
             }
-        } else { //закрывает
+        } else {
             if (stack.length === 0) {
                 return false
             }
